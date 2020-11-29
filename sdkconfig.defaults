@@ -1,0 +1,5 @@
+# 100Hz is more than enough
+CONFIG_FREERTOS_HZ=100
+
+# Because nano format does not support floating point numbers in printf()
+CONFIG_NEWLIB_NANO_FORMAT=n
